@@ -42,3 +42,128 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+#sidebar{
+    float:left;
+    width:225px;
+}
+.summer-page #sidebar{width:215px;}
+
+#sidebar .block{
+    overflow:visible;
+    padding:0;
+}
+#sidebar .block .heading{
+    margin:-1px -1px 0;
+    padding:8px 14px;
+}
+#sidebar .info-menu .heading{
+    padding:8px 14px;
+    background:#d7d7d7;
+}
+#sidebar .info-menu .heading h3{color:#462b8e;}
+#sidebar .info-menu .content{
+    overflow:hidden;
+    width:auto;
+    padding:13px 12px 13px 13px;
+}
+#sidebar .info-menu select{
+    width:196px;
+    float:left;
+    margin:0;
+    padding:0;
+}
+#sidebar .menu{
+    list-style:none;
+    padding:0 9px 1px 0;
+    margin:0 -10px 0 -1px;
+    overflow:hidden;
+    width:225px;
+    font:13px/18px "TradeGothicLTStdBoldNo.2", Helvetica, Arial, sans-serif;
+}
+.summer-page #sidebar .menu{width:206px;}
+
+#sidebar .menu li{
+    float:left;
+    clear:both;
+    width:225px;
+    margin:0 0 -1px;
+    vertical-align:top;
+    border-top:1px solid #e5e5e5;
+}
+#sidebar .menu li:first-child{
+    border:none;
+    margin-top:0;
+}
+#sidebar .menu .active{
+    width:234px;
+    border:none;
+    margin:1px -9px -1px 0;
+}
+#sidebar .block .heading-sidebar{
+    margin-right:-9px;
+    background:#462b8e url(../images/btn-sprite.png) no-repeat 100% -287px;
+}
+#sidebar .menu a{
+    display:block;
+    color:#462b8e;
+    padding:8px 20px 10px 14px;
+    margin:-1px 0 0;
+    float:left;
+    width:191px;
+    background:url(../images/transparent.gif) no-repeat;
+    position:relative;
+}
+#sidebar .menu a:hover{
+    text-decoration:none;
+    color:#fff;
+    background:#e9b018;
+    position:relative;
+    z-index:2;
+}
+#sidebar .menu .active a{
+    color:#fff !important;
+    margin-top:0;
+    width:200px;
+    position:relative;
+    background:#e9b018 url(../images/btn-sprite.png) no-repeat 100% -204px;
+}
+#sidebar .info-menu .menu a{
+    color:#777;
+    font-family:Helvetica, Arial, sans-serif;
+}
+#sidebar .info-menu .menu a:hover{color:#fff;}
+#sidebar .block .link{
+    display:block;
+    background:#efefef url(../images/arrow-sidebar-link.png) no-repeat 0 50%;
+    color:#777;
+    font-weight:bold;
+    font-size:13px;
+    line-height:16px;
+    border-top:1px solid #d7d7d7;
+    padding:8px 10px 10px 37px;
+}
+#sidebar .link-info{
+    background:url(../images/arrow-link-info.png) no-repeat 100% 50%;
+    border:2px solid #bb2d69;
+    display:block;
+    color:#98164d;
+    padding:11px 23px 11px 13px;
+    font:16px/20px "TradeGothicLTStdBoldNo.2", Helvetica, Arial, sans-serif;
+}
+#sidebar .register-link{
+    padding:11px 38px 11px 13px;
+    display:inline-block;
+    vertical-align:top;
+}
+#sidebar .select-link{
+    display:block;
+    padding:8px 14px;
+    color:#fff;
+    font: 16px/24px "TradeGothicLTStdBoldNo.2", Helvetica, Arial, sans-serif;
+    background:#462b8e;
+    margin:0 0 20px;
+}
+#sidebar .arrow-link{
+    background:#462b8e url(../images/btn-sprite.png) no-repeat 100% -287px;
+    margin-right:-8px;
+}
