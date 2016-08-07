@@ -1,5 +1,5 @@
 body {
-    margin: 60px auto;
+    margin: 20px auto;
     width: 70%;
 }
 nav ul, footer ul {
@@ -19,13 +19,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1,
-h3 {
+h1 {
     font-size: 24px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #000083;
 }
-h3,
 p {
     font-size: 1.5em;
     line-height: 1.4em;
