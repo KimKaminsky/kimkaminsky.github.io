@@ -5,33 +5,42 @@
     <!-- link to main stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
-    <body>
-        <h1 class="text-muted"><a href="/">Kaminsky Analytics</a></h1>
-        <div id="sidebar">
-            <div class="block">
-                <ul class="menu">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/resume">Resume</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/mspa">Northwestern MSPA</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="container">
+<body>
+    <div class="left-col">
+      <header>Kaminsky Analytics</header>
+      <div class="format">
+         <div class="profilepic">
+                <img src="/unicorn11.gif" style="width: 180px;" />
+            <div id="sidebar">
+                <div class="block">
+                    <ul class="menu">
+                        <li class="active"><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/resume">Resume</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/mspa">Northwestern MSPA</a></li>
+                    </ul>
+                </div> <!-- /.block -->
+            </div> <!--/.sidebar -->
+         </div> <!-- /.profilepic -->
+        </div> <!--/.format-->
+      </div> <!-- /.left-col -->
+        
+      <div class="container">
+                <h1 class="text-muted"><a href="/">Kaminsky Analytics</a></h1>
 
-            {{ content }}
+                {{ content }}
+
+                <footer>
+                    <ul>
+                        <li><a href="mailto:kim.kaminsky@gmail.com">email</a></li>
+                        <li><a href="https://github.com/kimkaminsky">github.com/kimkaminsky</a></li>
+                    </ul>
+                </footer>
 
         </div><!-- /.container -->
-    </body>
-        <footer>
-            <ul>
-                <li><a href="mailto:kim.kaminsky@gmail.com">email</a></li>
-                <li><a href="https://github.com/kimkaminsky">github.com/kimkaminsky</a></li>
-            </ul>
-        </footer>
 
-
+</body>
 </html>
 	
 

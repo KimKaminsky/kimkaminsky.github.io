@@ -2,20 +2,6 @@ body {
     margin: 5px;
     width: 100%;
 }
-.container {
-    margin: 100px auto;
-    width: 100%;
-}
-footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
 a {
     text-decoration: none;
     color: #00008B;
@@ -23,35 +9,29 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 24px;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #000083;
+header{
+    font-family: 'Old English Text MT' ;
+	font-size: 27px;
+    text-align: center;
+    color: #00008B;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #000083;
+.left-col{
+    float: left;
+    width: 225px;
+    position: fixed;
 }
-footer {
-    border-top: 2px solid #d5d5d5;
-    font-size: .8em;
+.format{
+    align-content: center;
 }
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
+.profilepic img { 
+    display: block;
+    margin: 0 auto;
 }
 #sidebar{
-    float:left;
     width:225px;
+    position:fixed;
+    height:100%;
 }
-.summer-page #sidebar{width:215px;}
-
 #sidebar .block{
     overflow:visible;
     padding:0;
@@ -64,7 +44,7 @@ ul.posts li {
     padding:8px 14px;
     background:#d7d7d7;
 }
-#sidebar .info-menu .heading h3{color:#462b8e;}
+#sidebar .info-menu .heading h3{color: #00008B;}
 #sidebar .info-menu .content{
     overflow:hidden;
     width:auto;
@@ -72,7 +52,6 @@ ul.posts li {
 }
 #sidebar .info-menu select{
     width:60px;
-    float:left;
     margin:0;
     padding:0;
 }
@@ -84,10 +63,7 @@ ul.posts li {
     width:210px;
     font:13px/18px "TradeGothicLTStdBoldNo.2", Helvetica, Arial, sans-serif;
 }
-.summer-page #sidebar .menu{width:206px;}
-
 #sidebar .menu li{
-    float:left;
     clear:both;
     width:225px;
     margin:0 0 -1px;
@@ -109,10 +85,9 @@ ul.posts li {
 }
 #sidebar .menu a{
     display:block;
-    color:#462b8e;
+    color: #00008B;
     padding:8px 20px 10px 14px;
     margin:-1px 0 0;
-    float:left;
     width:191px;
     background:url(../images/transparent.gif) no-repeat;
     position:relative;
@@ -167,7 +142,32 @@ ul.posts li {
     background:#462b8e;
     margin:0 0 20px;
 }
-#sidebar .arrow-link{
-    background:#462b8e url(../images/btn-sprite.png) no-repeat 100% -287px;
-    margin-right:-8px;
+.container {
+    display: block;
+    margin-left: 250px;
+    text-align: start;
+}
+h1 {
+    font-size: 24px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #00008B;
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #00008B;
+}
+footer {
+    border-top: 2px solid #d5d5d5;
+    font-size: .8em;
+}
+footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
