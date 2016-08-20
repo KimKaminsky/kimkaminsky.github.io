@@ -1,9 +1,3 @@
 name: Kaminsky Analytics  
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
