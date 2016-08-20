@@ -81,7 +81,7 @@ header{
 }
 #sidebar .block .heading-sidebar{
     margin-right:-9px;
-    background:#462b8e url(../images/btn-sprite.png) no-repeat 100% -287px;
+    /*background:#462b8e url(../images/btn-sprite.png) no-repeat 100% -287px; */
 }
 #sidebar .menu a{
     display:block;
@@ -89,7 +89,7 @@ header{
     padding:8px 20px 10px 14px;
     margin:-1px 0 0;
     width:191px;
-    background:url(../images/transparent.gif) no-repeat;
+   /* background:url(../images/transparent.gif) no-repeat;*/
     position:relative;
 }
 #sidebar .menu a:hover{
@@ -104,7 +104,7 @@ header{
     margin-top:0;
     width:200px;
     position:relative;
-    background:#e9b018 url(../images/btn-sprite.png) no-repeat 100% -204px;
+   background:#e9b018 /*url(../images/btn-sprite.png) no-repeat 100% -204px*/ ; 
 }
 #sidebar .info-menu .menu a{
     color:#777;
